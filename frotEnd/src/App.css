@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+  
+  
+}
+* button{
+  background-color: #75a08a;
+}
+* button {
+	box-shadow: 11px 14px 22px -7px #838383;
+	background:linear-gradient(to bottom, rgba(20, 68, 68, 0.227) 5%, #34472a53 100%);
+	background-color:#47604d;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:11px 32px;
+	text-decoration:none;
+	text-shadow:0px 3px 10px #4c6b48;
+}
+* button:hover {
+	background:linear-gradient(to bottom, rgba(20, 68, 68, 0.227) 5%, #34472a53 100%);
+	background-color:#47604d;
+}
+* button:active {
+	position:relative;
+	top:1px;
+}
+
+#Navbar{
+  background-color:  #417b4d;
+  box-shadow: 0px -9px 18px -1px rgba(32,51,105,0.75) inset;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  
+}
+.profilePage{
+  text-align: center;
+}
+.PopularPage h2{
+  font-family:    sans-serif;
+
+}
+#root{
+  
+  width: 100%;
+}
+.PopularPage{
+  height: 700px;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+#form{
+  width: 50%;
+}
+#form label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
+}
+#form select{
+  border-radius: 10px;
+  font-size: 22px;
+  background-color: #139e8c;
+}
+#form label:hover{
+  font-weight: bold;
+}
+
+.Popular{
+  margin-top: 30px;
+}
+.Popular, img{
+  width: 100%;
+  height: 200px;
+  
+}
+/* #Card{
+  
+  background-color: #3E7205;
+} */
+.col1{
+  background-color: #3E7205;
+}
+#imageList{
+  width: 300px;
+  height: inherit;
+}
+.tableCss{
+  width: 90%;
+  margin: 0px 5% 30px 100px ;
+  overflow: scroll;
+  height: 500px;
+  background-color: #75a08a;
+  border-radius: 10px;
+  box-shadow:  #2fc650;
+  
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.tableCss button{
+  background-color: aqua;
+  
+}
+.Popularrecipes{
+  margin-bottom: 100px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #9CD9B3;
+  height: 60px;
+  box-shadow: 1px 1px 10px 2px rgba(69, 150, 77, 1);
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+#log{
+  background-color: #4bb67f;
+  height: 100%;
+}
+
+#log button{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.newRecipe{
+  margin-left: 20%;
+}
+.Back{
+  margin-left: 28%;
+}
+.logout{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 200px;
+}
+#cards{
+  width: 24%;
+}
+#Card{
+  text-align: center;
+}
+#cardimage{
+  background-color: #0D692F;
+}
+#cards:hover{
+  box-shadow: inset 0px 8px 38px 8px #0D692F;
+ border-radius: 10px;
+ 
+
+ 
+}
+
+#cardbody:hover{
+  
+  background:linear-gradient(to bottom, rgb(209, 225, 213) 5%, #bdbdbd 100%);
+}
+
+
+#startRecipe{
+  height: 80px;
+  margin-left: 40px;
+  width: 30%;
+  overflow: hidden;
+  
+  text-overflow: ellipsis;
+}
+
+#NewRecipe{
+  margin-top: 30px;
+  text-align: center;
+}
+#typeRecipeX-2{
+  height: 200px;
+  width: 50%;
+  margin-left: 25%;
+}
+#linkbt{
+  color: white;
+}
+#cardImage img{
+  width: 300px;
+  height: inherit;
+}
+#typeIngredientesX-2{
+  width: 60%;
+  margin-left: 20%;
+}
